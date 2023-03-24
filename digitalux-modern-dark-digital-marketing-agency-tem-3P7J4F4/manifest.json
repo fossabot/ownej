@@ -1,0 +1,1065 @@
+{
+    "manifest_version": "1.0.19",
+    "title": "Digitalux",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/kit.detheme.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Header",
+            "screenshot": "screenshots\/header.jpg",
+            "source": "templates\/header.json",
+            "preview_url": "https:\/\/kit.detheme.com\/digitalux\/?elementor_library=header",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Footer",
+            "screenshot": "screenshots\/footer.jpg",
+            "source": "templates\/footer.json",
+            "preview_url": "https:\/\/kit.detheme.com\/digitalux\/?elementor_library=footer",
+            "type": "footer",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "footer",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Footer\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Home",
+            "screenshot": "screenshots\/home.jpg",
+            "source": "templates\/home.json",
+            "preview_url": "https:\/\/kit.detheme.com\/digitalux\/template-kit\/home\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "About",
+            "screenshot": "screenshots\/about.jpg",
+            "source": "templates\/about.json",
+            "preview_url": "https:\/\/kit.detheme.com\/digitalux\/template-kit\/about\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Get In Touch",
+            "screenshot": "screenshots\/get-in-touch.jpg",
+            "source": "templates\/get-in-touch.json",
+            "preview_url": "https:\/\/kit.detheme.com\/digitalux\/template-kit\/get-in-touch\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Style guide",
+            "screenshot": "screenshots\/style-guide.jpg",
+            "source": "templates\/style-guide.json",
+            "preview_url": "https:\/\/kit.detheme.com\/digitalux\/template-kit\/style-guide\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "404",
+            "screenshot": "screenshots\/404.jpg",
+            "source": "templates\/404.json",
+            "preview_url": "https:\/\/kit.detheme.com\/digitalux\/?elementor_library=404",
+            "type": "single",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-404",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single",
+                "elementor_pro_conditions": [
+                    "include\/singular\/not_found404"
+                ],
+                "additional_template_information": [
+                    "This is a \"Single\" template for Elementor Pro.",
+                    "This template will display on: 404 Page."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Blog Archive",
+            "screenshot": "screenshots\/blog-archive.jpg",
+            "source": "templates\/blog-archive.json",
+            "preview_url": "https:\/\/kit.detheme.com\/digitalux\/?elementor_library=blog-archive",
+            "type": "archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-blog",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "archive",
+                "elementor_pro_conditions": [
+                    "include\/archive\/post_archive"
+                ],
+                "additional_template_information": [
+                    "This is a \"Archive\" template for Elementor Pro.",
+                    "This template will display on: Posts Archive."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Optin Popup",
+            "screenshot": "screenshots\/optin-popup.jpg",
+            "source": "templates\/optin-popup.json",
+            "preview_url": "https:\/\/kit.detheme.com\/digitalux\/?elementor_library=optin-popup",
+            "type": "popup",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-popup",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "popup",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Popup\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Account",
+            "screenshot": "screenshots\/account.jpg",
+            "source": "templates\/account.json",
+            "preview_url": "https:\/\/kit.detheme.com\/digitalux\/template-kit\/account\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Single post",
+            "screenshot": "screenshots\/single-post.jpg",
+            "source": "templates\/single-post.json",
+            "preview_url": "https:\/\/kit.detheme.com\/digitalux\/?elementor_library=single-post",
+            "type": "single-post",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single-post",
+                "elementor_pro_conditions": [
+                    "include\/singular\/post"
+                ],
+                "additional_template_information": [
+                    "This is a \"Single Post\" template for Elementor Pro.",
+                    "This template will display on: Posts."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Blog",
+            "screenshot": "screenshots\/blog.jpg",
+            "source": "templates\/blog.json",
+            "preview_url": "https:\/\/kit.detheme.com\/digitalux\/template-kit\/blog\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Team",
+            "screenshot": "screenshots\/team.jpg",
+            "source": "templates\/team.json",
+            "preview_url": "https:\/\/kit.detheme.com\/digitalux\/template-kit\/team\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Services",
+            "screenshot": "screenshots\/services.jpg",
+            "source": "templates\/services.json",
+            "preview_url": "https:\/\/kit.detheme.com\/digitalux\/template-kit\/services\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Pricing",
+            "screenshot": "screenshots\/pricing.jpg",
+            "source": "templates\/pricing.json",
+            "preview_url": "https:\/\/kit.detheme.com\/digitalux\/template-kit\/pricing\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Our Process",
+            "screenshot": "screenshots\/our-process.jpg",
+            "source": "templates\/our-process.json",
+            "preview_url": "https:\/\/kit.detheme.com\/digitalux\/template-kit\/our-process\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Case Study",
+            "screenshot": "screenshots\/case-study.jpg",
+            "source": "templates\/case-study.json",
+            "preview_url": "https:\/\/kit.detheme.com\/digitalux\/template-kit\/case-study\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "DethemeKit for Elementor",
+            "version": "1.5.5.2",
+            "file": "dethemekit-for-elementor\/detheme-kit.php",
+            "author": "deTheme"
+        },
+        {
+            "name": "Elementor",
+            "version": "3.0.16",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "Elementor Pro",
+            "version": "3.0.10",
+            "file": "elementor-pro\/elementor-pro.php",
+            "author": "Elementor.com"
+        }
+    ],
+    "images": [
+        {
+            "filename": "Digitalux-light.png",
+            "thumbnail_url": "https:\/\/kit.detheme.com\/digitalux\/wp-content\/uploads\/sites\/108\/2021\/04\/Digitalux-light.png",
+            "templates": [
+                {
+                    "source": "templates\/header.json",
+                    "name": "Header"
+                },
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                },
+                {
+                    "source": "templates\/account.json",
+                    "name": "Account"
+                }
+            ],
+            "filesize": 3889,
+            "dimensions": [
+                415,
+                63
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "business-and-startup-concept-bearded-male-freelanc-XVVQ8MX-1.jpg",
+            "thumbnail_url": "https:\/\/kit.detheme.com\/digitalux\/wp-content\/uploads\/sites\/108\/2021\/04\/business-and-startup-concept-bearded-male-freelanc-XVVQ8MX-1-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/get-in-touch.json",
+                    "name": "Get In Touch"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single post"
+                }
+            ],
+            "filesize": 170793,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-XVVQ8MX"
+        },
+        {
+            "filename": "creative-business-people-in-meeting-4CK7RZF.jpg",
+            "thumbnail_url": "https:\/\/kit.detheme.com\/digitalux\/wp-content\/uploads\/sites\/108\/2021\/04\/creative-business-people-in-meeting-4CK7RZF-800x1120.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 129936,
+            "dimensions": [
+                1428,
+                2000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-4CK7RZF"
+        },
+        {
+            "filename": "computer-programmer-coding-at-night-AK2VMZY.jpg",
+            "thumbnail_url": "https:\/\/kit.detheme.com\/digitalux\/wp-content\/uploads\/sites\/108\/2021\/04\/computer-programmer-coding-at-night-AK2VMZY-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 129166,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-AK2VMZY"
+        },
+        {
+            "filename": "business-people-meeting-brainstorming-ideas-about-LSCEDY4.jpg",
+            "thumbnail_url": "https:\/\/kit.detheme.com\/digitalux\/wp-content\/uploads\/sites\/108\/2021\/04\/business-people-meeting-brainstorming-ideas-about-LSCEDY4-800x450.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/404.json",
+                    "name": "404"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 119910,
+            "dimensions": [
+                2000,
+                1125
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-LSCEDY4"
+        },
+        {
+            "filename": "a-man-working-in-a-modern-design-office-HTGZ68F.jpg",
+            "thumbnail_url": "https:\/\/kit.detheme.com\/digitalux\/wp-content\/uploads\/sites\/108\/2021\/04\/a-man-working-in-a-modern-design-office-HTGZ68F-800x305.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/our-process.json",
+                    "name": "Our Process"
+                }
+            ],
+            "filesize": 73886,
+            "dimensions": [
+                2000,
+                762
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-HTGZ68F"
+        },
+        {
+            "filename": "play-white-by-rio.png",
+            "thumbnail_url": "https:\/\/kit.detheme.com\/digitalux\/wp-content\/uploads\/sites\/108\/2021\/04\/play-white-by-rio.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/our-process.json",
+                    "name": "Our Process"
+                }
+            ],
+            "filesize": 4121,
+            "dimensions": [
+                200,
+                200
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Image-P5R78L5.jpg",
+            "thumbnail_url": "https:\/\/kit.detheme.com\/digitalux\/wp-content\/uploads\/sites\/108\/2021\/04\/Image-P5R78L5-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 52883,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-P5R78L5"
+        },
+        {
+            "filename": "Image-CBKP567.jpg",
+            "thumbnail_url": "https:\/\/kit.detheme.com\/digitalux\/wp-content\/uploads\/sites\/108\/2021\/04\/Image-CBKP567-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 78695,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-CBKP567"
+        },
+        {
+            "filename": "Image-A9CNRMJ.jpg",
+            "thumbnail_url": "https:\/\/kit.detheme.com\/digitalux\/wp-content\/uploads\/sites\/108\/2021\/04\/Image-A9CNRMJ-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 85796,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-A9CNRMJ"
+        },
+        {
+            "filename": "Image-7TL5SCW.jpeg",
+            "thumbnail_url": "https:\/\/kit.detheme.com\/digitalux\/wp-content\/uploads\/sites\/108\/2021\/04\/Image-7TL5SCW-800x533.jpeg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/our-process.json",
+                    "name": "Our Process"
+                }
+            ],
+            "filesize": 62162,
+            "dimensions": [
+                1032,
+                688
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/smiling-manager-in-real-estate-agency-7TL5SCW"
+        },
+        {
+            "filename": "front-view-of-diverse-business-people-working-at-d-ZJNLG9F.jpg",
+            "thumbnail_url": "https:\/\/kit.detheme.com\/digitalux\/wp-content\/uploads\/sites\/108\/2021\/04\/front-view-of-diverse-business-people-working-at-d-ZJNLG9F-800x305.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/blog-archive.json",
+                    "name": "Blog Archive"
+                }
+            ],
+            "filesize": 96495,
+            "dimensions": [
+                2000,
+                763
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-ZJNLG9F"
+        },
+        {
+            "filename": "business-team-working-in-a-start-up-office-TS2WNCN.jpg",
+            "thumbnail_url": "https:\/\/kit.detheme.com\/digitalux\/wp-content\/uploads\/sites\/108\/2021\/04\/business-team-working-in-a-start-up-office-TS2WNCN-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 102860,
+            "dimensions": [
+                1800,
+                1200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-TS2WNCN"
+        },
+        {
+            "filename": "business-people-and-cooperation-concept-hands-busi-3XTWSDU.jpg",
+            "thumbnail_url": "https:\/\/kit.detheme.com\/digitalux\/wp-content\/uploads\/sites\/108\/2021\/04\/business-people-and-cooperation-concept-hands-busi-3XTWSDU-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/get-in-touch.json",
+                    "name": "Get In Touch"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                }
+            ],
+            "filesize": 70761,
+            "dimensions": [
+                1800,
+                1200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-3XTWSDU"
+        },
+        {
+            "filename": "businessman-laptop-planning-strategy-working-conce-PZLC523.jpg",
+            "thumbnail_url": "https:\/\/kit.detheme.com\/digitalux\/wp-content\/uploads\/sites\/108\/2021\/04\/businessman-laptop-planning-strategy-working-conce-PZLC523-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/get-in-touch.json",
+                    "name": "Get In Touch"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/our-process.json",
+                    "name": "Our Process"
+                },
+                {
+                    "source": "templates\/case-study.json",
+                    "name": "Case Study"
+                }
+            ],
+            "filesize": 95406,
+            "dimensions": [
+                1800,
+                1800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PZLC523"
+        },
+        {
+            "filename": "striped-grey-carpet-PK3HTDE-1.jpg",
+            "thumbnail_url": "https:\/\/kit.detheme.com\/digitalux\/wp-content\/uploads\/sites\/108\/2021\/04\/striped-grey-carpet-PK3HTDE-1-800x325.jpg",
+            "templates": [
+                {
+                    "source": "templates\/style-guide.json",
+                    "name": "Style guide"
+                }
+            ],
+            "filesize": 113245,
+            "dimensions": [
+                2000,
+                812
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-PK3HTDE"
+        },
+        {
+            "filename": "multiracial-businessmen-and-businesswomen-colleagu-4UYFBU3.jpg",
+            "thumbnail_url": "https:\/\/kit.detheme.com\/digitalux\/wp-content\/uploads\/sites\/108\/2021\/04\/multiracial-businessmen-and-businesswomen-colleagu-4UYFBU3-800x450.jpg",
+            "templates": [
+                {
+                    "source": "templates\/optin-popup.json",
+                    "name": "Optin Popup"
+                },
+                {
+                    "source": "templates\/our-process.json",
+                    "name": "Our Process"
+                }
+            ],
+            "filesize": 89341,
+            "dimensions": [
+                1800,
+                1013
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-4UYFBU3"
+        },
+        {
+            "filename": "business-people-meeting-conference-corporate-conce-P3B9ADA.jpg",
+            "thumbnail_url": "https:\/\/kit.detheme.com\/digitalux\/wp-content\/uploads\/sites\/108\/2021\/04\/business-people-meeting-conference-corporate-conce-P3B9ADA-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/account.json",
+                    "name": "Account"
+                },
+                {
+                    "source": "templates\/case-study.json",
+                    "name": "Case Study"
+                }
+            ],
+            "filesize": 161611,
+            "dimensions": [
+                1800,
+                1800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-P3B9ADA"
+        },
+        {
+            "filename": "young-attractive-businessman-showing-presentation-WNUAXSP.jpg",
+            "thumbnail_url": "https:\/\/kit.detheme.com\/digitalux\/wp-content\/uploads\/sites\/108\/2021\/04\/young-attractive-businessman-showing-presentation-WNUAXSP-800x592.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single post"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 107190,
+            "dimensions": [
+                2000,
+                1479
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-WNUAXSP"
+        },
+        {
+            "filename": "placeholder-1.png",
+            "thumbnail_url": "https:\/\/kit.detheme.com\/digitalux\/wp-content\/uploads\/sites\/108\/2021\/04\/placeholder-1-800x533.png",
+            "templates": [
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single post"
+                }
+            ],
+            "filesize": 6146,
+            "dimensions": [
+                1200,
+                800
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "start-up-business-team-PNDK6F4.jpg",
+            "thumbnail_url": "https:\/\/kit.detheme.com\/digitalux\/wp-content\/uploads\/sites\/108\/2021\/04\/start-up-business-team-PNDK6F4-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                }
+            ],
+            "filesize": 82780,
+            "dimensions": [
+                1800,
+                1202
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PNDK6F4"
+        },
+        {
+            "filename": "business-team-working-in-a-start-up-office-XUHESK2.jpg",
+            "thumbnail_url": "https:\/\/kit.detheme.com\/digitalux\/wp-content\/uploads\/sites\/108\/2021\/04\/business-team-working-in-a-start-up-office-XUHESK2-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 75295,
+            "dimensions": [
+                1800,
+                1200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-XUHESK2"
+        },
+        {
+            "filename": "business-colleagues-in-conference-meeting-room-dur-C6YHGN9.jpg",
+            "thumbnail_url": "https:\/\/kit.detheme.com\/digitalux\/wp-content\/uploads\/sites\/108\/2021\/04\/business-colleagues-in-conference-meeting-room-dur-C6YHGN9-800x1200.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/case-study.json",
+                    "name": "Case Study"
+                }
+            ],
+            "filesize": 128765,
+            "dimensions": [
+                1800,
+                2700
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-C6YHGN9"
+        },
+        {
+            "filename": "portrait-of-a-young-man-casually-dressed-looking-c-7GS4UBK.jpg",
+            "thumbnail_url": "https:\/\/kit.detheme.com\/digitalux\/wp-content\/uploads\/sites\/108\/2021\/04\/portrait-of-a-young-man-casually-dressed-looking-c-7GS4UBK-800x1048.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 82060,
+            "dimensions": [
+                1024,
+                1342
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-7GS4UBK"
+        },
+        {
+            "filename": "portrait-of-male-executive-in-office-RB5T2Q8.jpg",
+            "thumbnail_url": "https:\/\/kit.detheme.com\/digitalux\/wp-content\/uploads\/sites\/108\/2021\/04\/portrait-of-male-executive-in-office-RB5T2Q8-800x1199.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 98994,
+            "dimensions": [
+                1024,
+                1535
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-RB5T2Q8"
+        },
+        {
+            "filename": "group-of-casually-dressed-businesspeople-discussin-8U82S64.jpg",
+            "thumbnail_url": "https:\/\/kit.detheme.com\/digitalux\/wp-content\/uploads\/sites\/108\/2021\/04\/group-of-casually-dressed-businesspeople-discussin-8U82S64-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/case-study.json",
+                    "name": "Case Study"
+                }
+            ],
+            "filesize": 134720,
+            "dimensions": [
+                1800,
+                1201
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-8U82S64"
+        },
+        {
+            "filename": "business-startup-entrepreneur-strategy-target-conc-PZ9GYTX.jpg",
+            "thumbnail_url": "https:\/\/kit.detheme.com\/digitalux\/wp-content\/uploads\/sites\/108\/2021\/04\/business-startup-entrepreneur-strategy-target-conc-PZ9GYTX-800x544.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 104167,
+            "dimensions": [
+                1800,
+                1223
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PZ9GYTX"
+        },
+        {
+            "filename": "business-team-working-in-a-start-up-office-K8W3BR9.jpg",
+            "thumbnail_url": "https:\/\/kit.detheme.com\/digitalux\/wp-content\/uploads\/sites\/108\/2021\/04\/business-team-working-in-a-start-up-office-K8W3BR9-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 101821,
+            "dimensions": [
+                1800,
+                1200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-K8W3BR9"
+        },
+        {
+            "filename": "young-start-up-team-discussing-business-charts-in-7E625EE.jpg",
+            "thumbnail_url": "https:\/\/kit.detheme.com\/digitalux\/wp-content\/uploads\/sites\/108\/2021\/04\/young-start-up-team-discussing-business-charts-in-7E625EE-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/our-process.json",
+                    "name": "Our Process"
+                }
+            ],
+            "filesize": 131587,
+            "dimensions": [
+                1800,
+                1201
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-7E625EE"
+        },
+        {
+            "filename": "collaborative-process-of-multicultural-businesspeo-EKBPUJ2.jpg",
+            "thumbnail_url": "https:\/\/kit.detheme.com\/digitalux\/wp-content\/uploads\/sites\/108\/2021\/04\/collaborative-process-of-multicultural-businesspeo-EKBPUJ2-800x450.jpg",
+            "templates": [
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 75802,
+            "dimensions": [
+                1800,
+                1013
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-EKBPUJ2"
+        },
+        {
+            "filename": "business-startup-entrepreneur-strategy-target-conc-PM5Y9HG.jpg",
+            "thumbnail_url": "https:\/\/kit.detheme.com\/digitalux\/wp-content\/uploads\/sites\/108\/2021\/04\/business-startup-entrepreneur-strategy-target-conc-PM5Y9HG-800x572.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-process.json",
+                    "name": "Our Process"
+                }
+            ],
+            "filesize": 87446,
+            "dimensions": [
+                1800,
+                1288
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PM5Y9HG"
+        },
+        {
+            "filename": "multiracial-colleagues-at-corporate-meeting-sittin-4BQWM6U.jpg",
+            "thumbnail_url": "https:\/\/kit.detheme.com\/digitalux\/wp-content\/uploads\/sites\/108\/2021\/04\/multiracial-colleagues-at-corporate-meeting-sittin-4BQWM6U-800x450.jpg",
+            "templates": [
+                {
+                    "source": "templates\/case-study.json",
+                    "name": "Case Study"
+                }
+            ],
+            "filesize": 83264,
+            "dimensions": [
+                1800,
+                1013
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-4BQWM6U"
+        },
+        {
+            "filename": "company-employees-working-in-software-development-Y6P4434.jpg",
+            "thumbnail_url": "https:\/\/kit.detheme.com\/digitalux\/wp-content\/uploads\/sites\/108\/2021\/04\/company-employees-working-in-software-development-Y6P4434-800x1200.jpg",
+            "templates": [
+                {
+                    "source": "templates\/case-study.json",
+                    "name": "Case Study"
+                }
+            ],
+            "filesize": 184552,
+            "dimensions": [
+                1800,
+                2700
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-Y6P4434"
+        },
+        {
+            "filename": "creating-website-WS68A2B.jpg",
+            "thumbnail_url": "https:\/\/kit.detheme.com\/digitalux\/wp-content\/uploads\/sites\/108\/2021\/04\/creating-website-WS68A2B-800x1200.jpg",
+            "templates": [
+                {
+                    "source": "templates\/case-study.json",
+                    "name": "Case Study"
+                }
+            ],
+            "filesize": 148108,
+            "dimensions": [
+                1800,
+                2700
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-WS68A2B"
+        }
+    ]
+}
